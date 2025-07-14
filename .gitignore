@@ -1,0 +1,34 @@
+# Ignorer les environnements virtuels
+whisper_env/
+env/
+venv/
+
+# Ignorer les fichiers/dossiers de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les checkpoints et modèles entraînés
+*.pth
+*.pt
+
+# Données audio/text brut ou transformées
+all_audio/
+all_text/
+*.wav
+*.flac
+*.mp3
+*.csv
+
+# Fichiers de logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+whisper_env/
